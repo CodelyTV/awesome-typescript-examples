@@ -32,5 +32,8 @@
     "jest": "^28.0.1",
     "prettier": "^2.6.2",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "zustand": "3.4.2"
   }
 }
