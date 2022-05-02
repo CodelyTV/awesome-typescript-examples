@@ -1,4 +1,4 @@
-import { Codelyber } from "../../src/features-you-do-not-know/private-and-readonly";
+import { Codelyber } from "../../src/features-you-do-not-know/private-and-readonly-are-lies";
 
 describe("Codelyber", () => {
   it("can be instantiated without throwing errors", () => {
