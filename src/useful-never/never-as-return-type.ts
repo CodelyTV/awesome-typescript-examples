@@ -5,7 +5,7 @@ function save(): void {
 const saveFunctionReturnThatShouldBeUndefined = save();
 console.log(saveFunctionReturnThatShouldBeUndefined);
 // 💡 JavaScript returns `undefined` by default
-// Even if _you_ do not return something, it is
+// Even if _you_ do not return something
 
 function remove(): never {
   throw new Error("Invalid operation for an append-only DB");

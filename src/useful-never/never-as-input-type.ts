@@ -14,13 +14,21 @@ apparentlyUnnecessaryFunction(randomThing);
 // 💡 This will be useful while talking about narrowing and exhaustive checks
 // For now, lets see how further we can go with this concept:
 
-type VideoStep = {
+export type VideoStep = {
   duration: number;
   questions?: never;
+  description?: never;
 };
 
-type QuizzStep = {
-  questions: [];
+export type QuizzStep = {
+  questions: number[];
+  duration?: never;
+  description?: never;
+};
+
+export type ToDoStep = {
+  description: string;
+  questions?: never;
   duration?: never;
 };
 
