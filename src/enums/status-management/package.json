@@ -1,0 +1,20 @@
+{
+  "name": "status-management",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "author": "codelytv",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
