@@ -1,8 +1,8 @@
-import { RegisterUseCase } from "./RegisterUseCase";
+import { UseCase } from "./UseCase";
 import { User } from "./User";
 import { UserRepository } from "./UserRepository";
 
-@RegisterUseCase()
+@UseCase()
 export class UserSearcher {
   constructor(private readonly userRepository: UserRepository) {}
 

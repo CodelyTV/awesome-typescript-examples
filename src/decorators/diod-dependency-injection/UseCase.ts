@@ -5,7 +5,7 @@ interface Newable<T> extends Function {
 
 export const registeredUseCases: Newable<any>[] = [];
 
-export const RegisterUseCase = () => {
+export const UseCase = () => {
   return (target: Newable<any>): Newable<any> => {
     registeredUseCases.push(target);
 

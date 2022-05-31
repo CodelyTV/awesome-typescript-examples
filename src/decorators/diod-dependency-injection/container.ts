@@ -1,7 +1,7 @@
 import { ContainerBuilder } from "diod";
 
 import { InMemoryUserRepository } from "./InMemoryUserRepository";
-import { registeredUseCases } from "./RegisterUseCase";
+import { registeredUseCases } from "./UseCase";
 import { UserRepository } from "./UserRepository";
 
 const builder = new ContainerBuilder();
