@@ -35,7 +35,9 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
+    "diod": "^1.0.2",
     "express": "^4.18.1",
+    "reflect-metadata": "^0.1.13",
     "zustand": "3.4.2"
   }
 }
