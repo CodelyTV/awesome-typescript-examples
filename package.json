@@ -1,22 +1,23 @@
 {
-  "name": "typescript-basic-skeleton",
+  "name": "awesome-typescript-examples",
   "license": "GPL-3.0",
-  "version": "2.0.0",
-  "description": "Bootstrap your new TypeScript project with the bare minimum dependencies",
+  "version": "1.0.0",
+  "author": "codelytv",
+  "description": "✨ Awesome TypeScript Examples with complete show cases of how to take advantage of the language potential.",
+  "keywords": ["typescript", "eslint", "examples", "dependency-injection", "decorators", "generics", "enums", "any", "unknown", "exhaustiveness-checking", "utility-types", "typescript-example", "typescript-examples"],
+  "homepage": "https://github.com/CodelyTV/awesome-typescript-examples#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodelyTV/awesome-typescript-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CodelyTV/awesome-typescript-examples/issues"
+  },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore . --ext .ts",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CodelyTV/typescript-basic-skeleton.git"
-  },
-  "author": "codelytv",
-  "bugs": {
-    "url": "https://github.com/CodelyTV/typescript-basic-skeleton/issues"
-  },
-  "homepage": "https://github.com/CodelyTV/typescript-basic-skeleton#readme",
   "devDependencies": {
     "@swc/core": "^1.2.172",
     "@swc/jest": "^0.2.20",

@@ -1,41 +1,50 @@
-# 🔷🌱 TypeScript Basic Skeleton
+<p align="center">
+  <a href="https://codely.com">
+    <img alt="Codely logo" src="https://user-images.githubusercontent.com/10558907/170513882-a09eee57-7765-4ca4-b2dd-3c2e061fdad0.png" width="300px" height="92px"/>
+  </a>
+</p>
 
-Template intended to serve as a starting point if you want to bootstrap a project in TypeScript.
+<h1 align="center">
+  ✨ Awesome TypeScript Examples
+</h1>
 
-The purpose of this repository is to leave it with the bare minimum dependencies and tools needed to run TypeScript snippets or start you project without any opinionated decision already made.
+<p align="center">
+    <a href="https://github.com/CodelyTV"><img src="https://img.shields.io/badge/CodelyTV-OS-green.svg?style=flat-square" alt="Codely Open Source"/></a>
+    <a href="https://pro.codely.tv"><img src="https://img.shields.io/badge/CodelyTV-PRO-black.svg?style=flat-square" alt="CodelyTV Pro Courses"/></a>
+</p>
 
-## Features
+<p align="center">
+  Awesome TypeScript Examples with complete show cases of how to take advantage of the language potential.
+  <br />
+  <br />
+  Take a look, play and have fun with this.
+  <a href="https://github.com/CodelyTV/awesome-typescript-examples/stargazers">Stars are welcome 😊</a>
+</p>
 
-- [TypeScript](https://www.typescriptlang.org/) (v4)
-- [Prettier](https://prettier.io/)
-- [ESLint](https://eslint.org/) with:
-  - [Simple Import Sort](https://github.com/lydell/eslint-plugin-simple-import-sort/)
-  - [Import plugin](https://github.com/benmosher/eslint-plugin-import/)
-  - And a few other ES2015+ related rules
-- [Jest](https://jestjs.io) with [DOM Testing Library](https://testing-library.com/docs/dom-testing-library/intro)
-- [GitHub Action workflows](https://github.com/features/actions) set up to run tests and linting on push
-- [SWC](https://swc.rs/): Execute your tests in less than 200ms
+# 🔀 Related utilities and resources
 
-## Running the app
+## ☝️ Learning resources
 
-- Install the dependencies: `npm install`
-- Execute the tests: `npm run test`
-- Check linter errors: `npm run lint`
-- Fix linter errors: `npm run lint:fix`
+- [🚜 TypeScript Avanzado: Más allá de any](https://pro.codely.tv/library/typescript-avanzado-mas-alla-de-any-182513/418230/about/) (Spanish - Course)
+- [📂 DDD en TypeScript: Estructura de carpetas](https://youtu.be/AJJRk7qmVHg) (Spanish - YouTube video)
+- [🔖 Domain-Driven Design en TypeScript](https://pro.codely.tv/library/ddd-en-typescript-modelado-y-arquitectura-172533/375662/about/) (Spanish - Course)
+- [🐥 JavaScript moderno: Buenas prácticas para empezar y refactorizar aplicaciones](https://pro.codely.tv/library/javascript-moderno-buenas-practicas-para-empezar-y-refactorizar-aplicaciones-69571/208928/about/) (Spanish - Course)
+- [🏗️ De JavaScript a TypeScript](https://pro.codely.tv/library/de-javascript-a-typescript-128106/347481/about/) (Spanish - Course)
 
-## Related skeleton templates
+## 🔷 TypeScript skeletons
 
-Opinionated TypeScript skeletons ready for different purposes:
+- [🌱 TypeScript Basic Skeleton](https://github.com/CodelyTV/typescript-basic-skeleton): Bootstrap your new TypeScript frontend project
+- [🌍 TypeScript API Skeleton](https://github.com/CodelyTV/typescript-api-skeleton): Bootstrap your new TypeScript backend project
 
-- [🔷🕸️ TypeScript Web Skeleton](https://github.com/CodelyTV/typescript-web-skeleton)
-- [🔷🌍 TypeScript API Skeleton](https://github.com/CodelyTV/typescript-api-skeleton)
-- [🔷✨ TypeScript DDD Skeleton](https://github.com/CodelyTV/typescript-ddd-skeleton)
+## 🌈 TypeScript Domain-Driven Design repositories
 
-This very same basic skeleton philosophy implemented in other programming languages:
+- [✨ TypeScript DDD Skeleton](https://github.com/CodelyTV/typescript-ddd-skeleton): Bootstrap your new TypeScript projects applying Hexagonal Architecture and Domain-Driven Design patterns
+- [🔖 TypeScript DDD Course](https://github.com/CodelyTV/typescript-ddd-course): Learn Domain-Driven Design in TS lesson by lesson
+- [🎯 TypeScript DDD Example](https://github.com/CodelyTV/typescript-ddd-example): Complete project applying Hexagonal Architecture and Domain-Driven Design patterns
 
-- [✨ JavaScript Basic Skeleton](https://github.com/CodelyTV/javascript-basic-skeleton)
-- [☕ Java Basic Skeleton](https://github.com/CodelyTV/java-basic-skeleton)
-- [📍 Kotlin Basic Skeleton](https://github.com/CodelyTV/kotlin-basic-skeleton)
-- [🧬 Scala Basic Skeleton](https://github.com/CodelyTV/scala-basic-skeleton)
-- [🦈 C# Basic Skeleton](https://github.com/CodelyTV/csharp-basic-skeleton)
-- [🐘 PHP Basic Skeleton](https://github.com/CodelyTV/php-basic-skeleton)
+## 🎯 Other languages Domain-Driven Design repositories
+
+- [☕🎯 Java DDD Example](https://github.com/CodelyTV/java-ddd-example)
+- [🐘🎯 PHP DDD Example](https://github.com/CodelyTV/php-ddd-example)
+- [λ🎯 Scala DDD Example](https://github.com/CodelyTV/scala-ddd-example)
+- [🦈✨ C# DDD Skeleton](https://github.com/CodelyTV/csharp-ddd-skeleton)
