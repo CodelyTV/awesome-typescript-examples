@@ -8,7 +8,7 @@ const app = express();
 
 export class FibonacciGetController {
   @MeasureTime
-  getBooks(
+  calculateFibonacci(
     req: Request<void, void, void, { number: string }>,
     res: Response
   ): void {
@@ -23,6 +23,6 @@ export class FibonacciGetController {
 
 const controller = new FibonacciGetController();
 
-app.get("/", controller.getBooks);
+app.get("/", controller.calculateFibonacci);
 
 app.listen(8000);
