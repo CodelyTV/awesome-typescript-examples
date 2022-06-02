@@ -5,6 +5,6 @@ import { UserSearcher } from "./UserSearcher";
 
 const container = buildContainer();
 
-const useSearcher = container.get(UserSearcher);
+const userSearcher = container.get(UserSearcher);
 
-console.log(useSearcher.search());
+console.log(userSearcher.search());
