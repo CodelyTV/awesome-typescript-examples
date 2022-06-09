@@ -6,13 +6,7 @@ export const enum CourseCategory {
 
 const frontendCourseCategory = CourseCategory.FRONTEND;
 
-function assertNever(value: never) {
-  throw new Error(
-    `Unhandled discriminated union member: ${JSON.stringify(value)}`
-  );
-}
-
-function print(courseCategory: CourseCategory) {
+export function print(courseCategory: CourseCategory) {
   switch (courseCategory) {
     case CourseCategory.FRONTEND:
       return "This is the frontend course category";
@@ -22,8 +16,16 @@ function print(courseCategory: CourseCategory) {
     case CourseCategory.BEST_PRACTICES:
       return "This is the backend course category";
     default:
+      // If narrowed type is not never we will get a type error
       assertNever(courseCategory);
   }
+}
+
+function assertNever(value: never) {
+  // We will also get an error in runtime becase we are throwing an exception in assertNever method
+  throw new Error(
+    `Unhandled discriminated union member: ${JSON.stringify(value)}`
+  );
 }
 
 print(frontendCourseCategory);
