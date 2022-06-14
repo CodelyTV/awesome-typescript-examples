@@ -13,14 +13,14 @@ type DispatchParams<T extends keyof MappedActions> = MappedActions[T] extends {
   ? Pick<MappedActions[T], "params">["params"]
   : undefined;
 
-type DispathActionParams<T extends keyof MappedActions> =
+type DispatchActionParams<T extends keyof MappedActions> =
   MappedActions[T] extends Required<Pick<Action, "params">>
     ? [DispatchParams<T>]
     : [];
 
 export function dispatchActionConditionalWithMappedTypeAndRestParameter<
   T extends keyof MappedActions
->(type: T, ...params: DispathActionParams<T>) {
+>(type: T, ...params: DispatchActionParams<T>) {
   console.log(type, params);
 }
 
