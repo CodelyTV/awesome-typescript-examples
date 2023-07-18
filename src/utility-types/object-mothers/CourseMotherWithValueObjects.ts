@@ -8,7 +8,7 @@ import { Primitives } from "../../features-you-do-not-know/useful-utility-types/
 
 type CoursePartials = Partial<Primitives<Course>>;
 
-export class CourseMother {
+export class CourseMotherWithValueObjects {
   static create(params?: CoursePartials): Course {
     const courseParams: Primitives<Course> = {
       id: faker.string.uuid(),

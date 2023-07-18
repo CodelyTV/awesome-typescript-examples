@@ -1,8 +1,8 @@
-import { CourseMother } from "../../../src/utility-types/object-mothers/CourseMother";
+import { CourseMotherWithValueObjects } from "../../../src/utility-types/object-mothers/CourseMotherWithValueObjects";
 
-describe("CourseMother", () => {
+describe("CourseMotherWithValueObjects", () => {
   it("Has properties defined", () => {
-    const course = CourseMother.create();
+    const course = CourseMotherWithValueObjects.create();
 
     expect(course.id).toBeDefined();
     expect(course.title).toBeDefined();
@@ -11,7 +11,7 @@ describe("CourseMother", () => {
 
   it("Has specified title", () => {
     const expectedName = "TypeScript avanzado";
-    const course = CourseMother.create({ title: expectedName });
+    const course = CourseMotherWithValueObjects.create({ title: expectedName });
 
     expect(course.title.value).toBe(expectedName);
   });
