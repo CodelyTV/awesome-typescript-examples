@@ -4,7 +4,21 @@
   "version": "1.0.0",
   "author": "codelytv",
   "description": "✨ Awesome TypeScript Examples with complete show cases of how to take advantage of the language potential.",
-  "keywords": ["typescript", "eslint", "examples", "dependency-injection", "decorators", "generics", "enums", "any", "unknown", "exhaustiveness-checking", "utility-types", "typescript-example", "typescript-examples"],
+  "keywords": [
+    "typescript",
+    "eslint",
+    "examples",
+    "dependency-injection",
+    "decorators",
+    "generics",
+    "enums",
+    "any",
+    "unknown",
+    "exhaustiveness-checking",
+    "utility-types",
+    "typescript-example",
+    "typescript-examples"
+  ],
   "homepage": "https://github.com/CodelyTV/awesome-typescript-examples#readme",
   "repository": {
     "type": "git",
@@ -19,6 +33,7 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@swc/core": "^1.2.172",
     "@swc/jest": "^0.2.20",
     "@types/express": "^4.17.13",

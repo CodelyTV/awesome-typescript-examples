@@ -2,7 +2,7 @@
 // Primitive
 type Name = string;
 
-type Course = {
+export type Course = {
   title: string;
   url: string;
   chapters: number;
