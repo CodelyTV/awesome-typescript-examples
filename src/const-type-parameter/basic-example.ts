@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // Example with "as const"
 export type User = { name: string; age: number };
 
