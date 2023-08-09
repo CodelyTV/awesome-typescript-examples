@@ -11,12 +11,9 @@ type Endpoint = {
 };
 
 function setupFetcher<
-  const GetEndpoint extends Readonly<Endpoint>,
-  const PostEndpoint extends Readonly<Endpoint>
->(endpoints: {
-  get: ReadonlyArray<GetEndpoint>;
-  post: ReadonlyArray<PostEndpoint>;
-}) {
+  const GetEndpoint extends Endpoint,
+  const PostEndpoint extends Endpoint
+>(endpoints: { get: GetEndpoint[]; post: PostEndpoint[] }) {
   const endpointNameToUrl = (method: keyof typeof endpoints, name: string) => {
     const t = endpoints[method];
 

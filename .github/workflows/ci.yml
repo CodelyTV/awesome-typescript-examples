@@ -24,7 +24,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: 📥 Install dependencies
-        run: npm install
+        run: npm install --force
 
       - name: 💅 Lint code style
         run: npm run lint

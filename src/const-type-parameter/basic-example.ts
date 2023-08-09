@@ -2,16 +2,16 @@
 // Example with "as const"
 export type User = { name: string; age: number };
 
-function getUserName<T extends User>(username: T): T["name"] {
-  return username.name;
+function getUserName<T extends User>(user: T): T["name"] {
+  return user.name;
 }
 
 const userName = getUserName({ name: "Isma", age: 31 } as const);
-//     ^?
+//      ^?
 
 // Ejemplo const type parameter
-function getUserAge<const T extends User>(username: T): T["age"] {
-  return username.age;
+function getUserAge<const T extends User>(user: T): T["age"] {
+  return user.age;
 }
 
 const userAge = getUserAge({ name: "Isma", age: 31 });

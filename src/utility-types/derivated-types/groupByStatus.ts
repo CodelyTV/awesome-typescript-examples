@@ -5,9 +5,9 @@ export interface Course {
   status: "archived" | "active";
 }
 
-export function groupByStatus(
-  courses: Course[]
-): Record<CourseStatus, Course[]> {
+type GroupuedCoursesByStatus = Record<CourseStatus, Course[]>;
+
+export function groupByStatus(courses: Course[]): GroupuedCoursesByStatus {
   const grouped: Record<CourseStatus, Course[]> = {
     active: [],
     archived: [],
