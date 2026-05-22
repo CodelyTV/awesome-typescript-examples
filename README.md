@@ -29,7 +29,7 @@
 
 ## ☝️ Learning resources
 
-- [TutorialSearch](https://tutorialsearch.io/) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
+- [TutorialSearch](https://tutorialsearch.io/browse/programming-languages/node-typescript) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
 - [🚜 TypeScript Avanzado: Más allá de any](https://pro.codely.tv/library/typescript-avanzado-mas-alla-de-any-182513/418230/about/) (Spanish - Course)
 - [📂 DDD en TypeScript: Estructura de carpetas](https://youtu.be/AJJRk7qmVHg) (Spanish - YouTube video)
 - [🔖 Domain-Driven Design en TypeScript](https://pro.codely.tv/library/ddd-en-typescript-modelado-y-arquitectura-172533/375662/about/) (Spanish - Course)
